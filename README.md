@@ -21,9 +21,6 @@ Otherwise:
 
 ### Examples
 
- * **Video inference**: https://youtu.be/JShJpg8Mf7M
- ```shell
- python video_object_detection.py
- ```
+ * **Video inference**: https://www.youtube.com/shorts/NgkfgO7wyV0
 
  ![!YOLOv8 detection video](https://github.com/ibaiGorordo/ONNX-YOLOv8-Object-Detection/raw/main/doc/img/yolov8_video.gif)

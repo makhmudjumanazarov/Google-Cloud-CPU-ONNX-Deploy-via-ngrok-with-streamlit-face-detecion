@@ -9,8 +9,11 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
 
  ### Steps to Use
 <br />
-<b>Step 1.</b> Clone <a href= "https://github.com/makhmudjumanazarov/TensorRT-Deploy-via-ngrok-with-streamlit-for-face-detecion.git">this repository </a>
-via Terminal
+<b>Step 1.</b> Clone 
+<pre>
+git clone <a href= "https://github.com/makhmudjumanazarov/Google-Cloud-CPU-ONNX-Deploy-via-ngrok-with-streamlit-face-detecion"> the repository </a>
+</pre> 
+
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
 <pre>

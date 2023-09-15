@@ -38,10 +38,14 @@ make
 - After the compilation is finished, install the Python binaries. It is recommended to use the make altinstall command to prevent overwriting the default Python binary in the system.
 <pre>
 sudo make altinstall
+</pre>
+- After the installation, it is imperative to configure the dynamic linker run-time bindings. This step is vital and should not be overlooked as it can prevent potential issues.
+<pre>
+sudo ldconfig /usr/local/share/python3.9
 </pre> 
-
-
-
+<pre>
+alias python=python3.9
+</pre> 
 
 ### Steps to Use
 <br />

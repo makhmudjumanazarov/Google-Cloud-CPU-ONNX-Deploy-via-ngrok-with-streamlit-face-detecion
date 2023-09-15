@@ -6,6 +6,6 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
 
 
 
-### Examples
+### Result
 
  * **Video inference**: <a href= "https://www.youtube.com/shorts/NgkfgO7wyV0"> Result Video </a>

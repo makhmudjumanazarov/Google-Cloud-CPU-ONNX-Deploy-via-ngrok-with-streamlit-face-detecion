@@ -19,19 +19,6 @@ For Nvidia GPU computers:
 Otherwise:
 `pip install onnxruntime`
 
-# ONNX model
-Use the Google Colab notebook to convert the model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-yZg6hFg27uCPSycRCRtyezHhq_VAHxQ?usp=sharing)
-
-You can convert the model using the following code after installing ultralitics (`pip install ultralytics`):
-```python
-from ultralytics import YOLO
-
-model = YOLO("yolov8m.pt") 
-model.export(format="onnx", imgsz=[480,640])
-```
-
-[//]: # (The original models were converted to different formats &#40;including .onnx&#41; by [PINTO0309]&#40;https://github.com/PINTO0309&#41;. Download the models from **[his repository]**&#40;https://github.com/PINTO0309/PINTO_model_zoo/tree/main/345_YOLOv8&#41;. For that, you can either run the `download_single_batch.sh` or copy the download link inside that script in your browser to manually download the file. Then, extract and copy the downloaded onnx models &#40;for example `yolov8m_480x640.onnx`&#41; to your **[models directory]&#40;https://github.com/ibaiGorordo/ONNX-YOLOv8-Object-Detection/tree/main/models&#41;**, and fix the file name in the python scripts accordingly.)
-
 # Examples
 
  * **Video inference**: https://youtu.be/JShJpg8Mf7M

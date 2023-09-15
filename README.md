@@ -6,8 +6,10 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
  
 ### Result
  * **Video inference**: <a href= "https://www.youtube.com/shorts/NgkfgO7wyV0"> Result Video </a>
+### Python Installation
 
- ### Steps to Use
+
+### Steps to Use
 <br />
 <b>Step 1.</b> Clone 
 <pre>

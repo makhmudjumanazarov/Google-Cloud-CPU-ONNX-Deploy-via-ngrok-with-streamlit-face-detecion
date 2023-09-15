@@ -1,12 +1,12 @@
-# Important
+### Important
 - The input images are directly resized to match the input size of the model. I skipped adding the pad to the input image, it might affect the accuracy of the model if the input image has a different aspect ratio compared to the input size of the model. Always try to get an input size with a ratio close to the input images you will use.
 
-# Requirements
+### Requirements
 
  * Check the **requirements.txt** file.
  * For ONNX, if you have a NVIDIA GPU, then install the **onnxruntime-gpu**, otherwise use the **onnxruntime** library.
 
-# Installation
+### Installation
 ```shell
 git clone https://github.com/ibaiGorordo/ONNX-YOLOv8-Object-Detection.git
 cd ONNX-YOLOv8-Object-Detection
@@ -19,7 +19,7 @@ For Nvidia GPU computers:
 Otherwise:
 `pip install onnxruntime`
 
-# Examples
+### Examples
 
  * **Video inference**: https://youtu.be/JShJpg8Mf7M
  ```shell
@@ -30,7 +30,7 @@ Otherwise:
 
   *Original video: [https://youtu.be/Snyg0RqpVxY](https://youtu.be/Snyg0RqpVxY)*
 
-# References:
+### References:
 * YOLOv8 model: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 * PINTO0309's model zoo: [https://github.com/PINTO0309/PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo)
 * PINTO0309's model conversion tool: [https://github.com/PINTO0309/openvino2tensorflow](https://github.com/PINTO0309/openvino2tensorflow)

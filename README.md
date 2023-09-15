@@ -15,6 +15,31 @@ sudo apt update && sudo apt upgrade
 <pre>
 sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev -y
 </pre> 
+- Download Python 3.9 Source Code on Debian 12, 11, or 10
+<pre>
+wget https://www.python.org/ftp/python/3.9.17/Python-3.9.17.tar.xz
+</pre> 
+- Extract Python Archive and Move to Appropriate Directory on Debian
+<pre>
+tar -xf Python-3.9.17.tar.xz
+</pre> 
+<pre>
+mv Python-3.9.17 /usr/local/share/python3.9
+</pre> 
+- Configure, Compile, and Install Python 3.9 on Debian 12, 11 or 10
+<pre>
+cd /usr/local/share/python3.9
+./configure --enable-optimizations --enable-shared
+</pre> 
+- Compile the source code using the make command.
+<pre>
+make
+</pre> 
+- After the compilation is finished, install the Python binaries. It is recommended to use the make altinstall command to prevent overwriting the default Python binary in the system.
+<pre>
+sudo make altinstall
+</pre> 
+
 
 
 

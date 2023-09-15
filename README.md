@@ -7,6 +7,12 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
 ### Result
  * **Video inference**: <a href= "https://www.youtube.com/shorts/NgkfgO7wyV0"> Result Video </a>
 ### Python Installation
+Update Debian System Packages Before Python 3.9 Installation
+<pre>
+sudo apt update && sudo apt upgrade
+</pre> 
+<br/>
+
 
 
 ### Steps to Use

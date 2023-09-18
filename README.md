@@ -56,15 +56,12 @@ Open another page in the terminal (it should be the same as the path above).
                         
 </pre>
 <br/>
-
 If you facing this error, may be you haven’t downloaded/installed ngrok setup or may be there was an issue in going through this.
 - Download the <a href= "https://dashboard.ngrok.com/get-started/setup">zip file for Linux</a>
 - Unzip it.
 - Open The terminal in the current location (inside unzip folder) where you unzip the file.
 - Execute the following command into the terminal :
--
 <pre>
 sudo cp ngrok /usr/local/bin
 </pre>
 - Now Run ngrok http 8520
-

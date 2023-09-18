@@ -8,12 +8,13 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
  * **Video inference**: <a href= "https://www.youtube.com/shorts/NgkfgO7wyV0"> Result Video </a>
  
 ### Steps to Use
-
 <pre>
  You get the Google Cloud Free Program and create a Virtual Machine.The Virtual Machine Properties:
- ![Alt Text](/images/1.png)
-
 </pre> 
+![Alt Text](/images/1.png)
+![Alt Text](/images/2.png)
+![Alt Text](/images/3.png)
+![Alt Text](/images/4.png)
 <pre>
 If you have problems installing Python, use the following <a href= "https://www.linuxcapable.com/how-to-install-python-3-9-on-debian-linux/#Section-1-Install-Python-39-via-source-on-Debian-12-11-or-10">link</a>.
 </pre> 

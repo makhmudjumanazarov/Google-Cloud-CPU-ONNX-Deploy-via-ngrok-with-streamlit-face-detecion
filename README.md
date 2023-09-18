@@ -25,29 +25,29 @@ git clone https://github.com/makhmudjumanazarov/Google-Cloud-CPU-ONNX-Deploy-via
 </pre> 
 Create a new virtual environment 
 <pre>
-python -m venv TensorRT
+python -m venv onnx_cpu
 </pre> 
 <br/>
-<b>Step 3.</b> Activate your virtual environment
+Activate your virtual environment
 <pre>
-source TensorRT/bin/activate # Linux
+source onnx_cpu/bin/activate # Linux/Debian
 </pre>
 <br/>
-<b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
+Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
 pip install -r requirements.txt 
 pip install ipykernel
-python -m ipykernel install --user --name=TensorRT
+python -m ipykernel install --user --name=onnx_cpu
 </pre>
 <br/>
-<b>Step 5.</b> Run streamlit on localhost by running the stream.py file via terminal command (You can select an optional port)
+Run streamlit on localhost by running the stream.py file via terminal command (You can select an optional port)
 <pre>
 streamlit run stream.py --server.port 8520
 </pre>
 
 <br/>
-<b>Step 6.</b> Open another page in the terminal (it should be the same as the path above). 
+Open another page in the terminal (it should be the same as the path above). 
 <pre>
   - Sign up: https://ngrok.com/
   - Connect your account: 

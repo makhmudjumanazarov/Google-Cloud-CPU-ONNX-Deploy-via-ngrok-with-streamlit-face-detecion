@@ -18,13 +18,12 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
 <pre>
 If you have problems installing Python, use the following <a href= "https://www.linuxcapable.com/how-to-install-python-3-9-on-debian-linux/#Section-1-Install-Python-39-via-source-on-Debian-12-11-or-10">link</a>.
 </pre> 
-
 <br />
-<b>Step 1.</b> Clone 
+Cloning 
 <pre>
 git clone https://github.com/makhmudjumanazarov/Google-Cloud-CPU-ONNX-Deploy-via-ngrok-with-streamlit-face-detecion
 </pre> 
-<b>Step 2.</b> Create a new virtual environment 
+Create a new virtual environment 
 <pre>
 python -m venv TensorRT
 </pre> 

@@ -6,46 +6,7 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
  
 ### Result
  * **Video inference**: <a href= "https://www.youtube.com/shorts/NgkfgO7wyV0"> Result Video </a>
-### Python Installation
-- Update Debian System Packages Before Python 3.9 Installation
-<pre>
-sudo apt update && sudo apt upgrade
-</pre> 
-- Install Development Packages for Python 3.9 on Debian 12, 11, or 10
-<pre>
-sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev -y
-</pre> 
-- Download Python 3.9 Source Code on Debian 12, 11, or 10
-<pre>
-wget https://www.python.org/ftp/python/3.9.17/Python-3.9.17.tar.xz
-</pre> 
-- Extract Python Archive and Move to Appropriate Directory on Debian
-<pre>
-tar -xf Python-3.9.17.tar.xz
-</pre> 
-<pre>
-mv Python-3.9.17 /usr/local/share/python3.9
-</pre> 
-- Configure, Compile, and Install Python 3.9 on Debian 12, 11 or 10
-<pre>
-cd /usr/local/share/python3.9
-./configure --enable-optimizations --enable-shared
-</pre> 
-- Compile the source code using the make command.
-<pre>
-make
-</pre> 
-- After the compilation is finished, install the Python binaries. It is recommended to use the make altinstall command to prevent overwriting the default Python binary in the system.
-<pre>
-sudo make altinstall
-</pre>
-- After the installation, it is imperative to configure the dynamic linker run-time bindings. This step is vital and should not be overlooked as it can prevent potential issues.
-<pre>
-sudo ldconfig /usr/local/share/python3.9
-</pre> 
-<pre>
-alias python=python3.9
-</pre> 
+### If you have problems installing Python, use the following <a href= "https://www.linuxcapable.com/how-to-install-python-3-9-on-debian-linux/#Section-1-Install-Python-39-via-source-on-Debian-12-11-or-10"> link </a>. 
 
 ### Steps to Use
 <br />

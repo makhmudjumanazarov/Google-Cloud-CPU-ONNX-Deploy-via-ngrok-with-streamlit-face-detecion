@@ -7,7 +7,7 @@ I built a model for Face Detection using YOLOv8. I exported the YOLOv8 model to 
 ### Result
  * **Video inference**: <a href= "https://www.youtube.com/shorts/NgkfgO7wyV0"> Result Video </a>
  * **Link**: https://darling-serval-dashing.ngrok-free.app
- * 
+ * **Video for Test**: https://github.com/makhmudjumanazarov/TensorRT-Deploy-via-ngrok-with-streamlit-for-face-detecion/blob/main/images/GIF.mp4
  
 ### Steps to Use
 <pre>
